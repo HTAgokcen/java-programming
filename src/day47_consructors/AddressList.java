@@ -1,6 +1,6 @@
 package day47_consructors;
 
-public class AdressList {
+public class AddressList {
     public static void main(String[] args) {
         Address cybertekAddress = new Address(); //calling the constructor automatically
         cybertekAddress.setStreet("7925 Jones Branch Dr Suite 3300");
@@ -21,7 +21,7 @@ public class AdressList {
         newAddress.setZipCode("22102");
         System.out.println(newAddress.toString());
 
-        Address papaJon = new Address("8501 Tyco Rd Ste 1A", "Vienna", "VA", "22182");
-        //BREAK TILL 9:11 PM EST
+        Address papaJohnPizza = new Address("8501 Tyco Rd Ste 1A", "Vienna", "VA", "22182");
+        System.out.println("Papa John pizza = " + papaJohnPizza.toString());
     }
 }
