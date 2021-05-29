@@ -9,3 +9,4 @@ public class StudentObjects {
         Student st5 = new Student("Nasibe", 25);
     }
 }
+
